@@ -22,6 +22,8 @@ const App = observer(
     if (loading) {
       return <Grid style={{width: "100vw", height: "100vh", backgroundColor: "rgba(0, 0, 0, 0.5)"}} container justify='center' alignItems="center"> <CircularProgress color="inherit"/> </Grid>
     }
+    console.log(process.env.PORT)
+
 
     return (
       <BrowserRouter>

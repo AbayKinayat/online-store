@@ -2,11 +2,11 @@ import axios from 'axios';
 import port from '../config';
 
 const $host = axios.create({
-  baseURL: 'http://localhost:' + port + '/'
+  baseURL: 'http://ec2-54-90-13-87.compute-1.amazonaws.com:' + port + '/'
 })
 
 const $authHost = axios.create({
-  baseURL: 'http://localhost:'  + port + '/'
+  baseURL: 'http://ec2-54-90-13-87.compute-1.amazonaws.com:'  + port + '/'
 })
 
 const authInterceptor = config => { 
