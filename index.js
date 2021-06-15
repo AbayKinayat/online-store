@@ -7,8 +7,18 @@ const fileUpload = require('express-fileupload');
 const router = require('./routes/index');
 const errorHandler = require('./middleware/ErrorHandlingMiddleware');
 const path = require('path');
+const { Client } = require('pg');
 
 const PORT = process.env.PORT || 5000;
+
+const client = new Client({
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false
+  }
+});
+
+client.connect();
 
 const app = express();
 
