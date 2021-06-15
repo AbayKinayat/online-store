@@ -1,4 +1,4 @@
-const {Sequelize} = require('sequelize');
+const { Sequelize } = require('sequelize');
 
 module.exports = new Sequelize(
   // process.env.DB_NAME, // Название БД
@@ -9,7 +9,10 @@ module.exports = new Sequelize(
     dialect: 'postgres',
     protocol: 'postgres',
     dialectOptions: {
-        ssl: true
+      ssl: {
+        require: true,
+        rejectUnauthorized: false
+      }
     }
   }
 )
