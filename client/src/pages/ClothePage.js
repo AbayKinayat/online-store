@@ -17,7 +17,7 @@ const ClothPage = () => {
 
   return (
     <div style={{ display: 'flex', maxWidth: 1000, margin: "20px auto" }}>
-      <img alt="Одежда" width="335px" height="501px" style={{ objectFit: 'cover' }} src={"https://desolate-cliffs-92726.herokuapp.com/static/" + clothe.img} />
+      <img alt="Одежда" width="335px" height="501px" style={{ objectFit: 'cover' }} src={"https://desolate-cliffs-92726.herokuapp.com/" + clothe.img} />
       <div style={{ maxWidth: 400, width: '100%', marginLeft: 30 }}>
         <div className="clothe-page__top-info">
           <h5>{clothe.name}</h5>
