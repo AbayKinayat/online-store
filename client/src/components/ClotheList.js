@@ -21,7 +21,7 @@ const ClotheList = observer(
                   component="img"
                   alt="Contemplative Reptile"
                   height="300"
-                  image={process.env.REACT_APP_API_URL + clothe.img}
+                  image={clothe.img}
                   title="Contemplative Reptile"
                 />
                 <CardContent>

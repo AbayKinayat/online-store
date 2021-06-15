@@ -2,9 +2,11 @@ import axios from 'axios';
 import port from '../config';
 
 const $host = axios.create({
+  baseURL: "https://desolate-cliffs-92726.herokuapp.com/"
 })
 
 const $authHost = axios.create({
+  baseURL: "https://desolate-cliffs-92726.herokuapp.com/"
 })
 
 const authInterceptor = config => { 
