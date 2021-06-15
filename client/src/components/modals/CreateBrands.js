@@ -22,7 +22,7 @@ const CreateBrands = ({ open, onClose }) => {
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description"
     >
-      <DialogTitle id="alert-dialog-title">{"Добавить новый брэнд"}</DialogTitle>
+      <DialogTitle id="alert-dialog-title">{"Добавить новый бренд"}</DialogTitle>
       <DialogContent>
         <TextField
           style={{ width: window.innerWidth / 3 }}
