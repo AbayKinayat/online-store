@@ -7,13 +7,12 @@ const ClothPage = () => {
 
   const [clothe, setClothe] = useState({info: []})
   const {id} = useParams();
+  console.log(id)
 
   useEffect(() => {
     fetchOneClothe(id).then(data => {
       setClothe(data)
-      console.log(data)
     })
-    console.log(clothe.info)
   }, [])
 
   return (
