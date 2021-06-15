@@ -21,7 +21,7 @@ const ClotheList = observer(
                   component="img"
                   alt="Contemplative Reptile"
                   height="300"
-                  image={"https://desolate-cliffs-92726.herokuapp.com/" + clothe.img}
+                  image={"https://desolate-cliffs-92726.herokuapp.com/static/" + clothe.img}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
