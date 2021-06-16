@@ -106,7 +106,7 @@ const Auth = observer(
           <div className="auth-content__wrapped_right">
             <div>
               <div className="auth-attainment">
-                Уже как 2 миллиона продаж за 2021 год
+                Уже как 1 миллиона продаж за 2021 год
               </div>
               <p className="auth-attainment__description">
                 Кампания ARMSTRING  - американская компания, крупнейшая в мире на рынках. В данный момент на Amazon присутствует около трех миллионов активных продавцов во всем мире, которые делают до 60% всех продаж на платформе.
